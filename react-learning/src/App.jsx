@@ -5,6 +5,7 @@ import image1 from "./images/image1.jpg"
 import image2 from "./images/image2.jpg"
 import image3 from "./images/image3.jpg"
 import image4 from "./images/image4.jpg"
+import Study from "./components/Study";
 import "./App.css"
 
 function App(){
@@ -13,6 +14,8 @@ function App(){
       <h1>Hello world</h1>
 
       <About/>
+      <Study name="Michael" age = {40} course="Maths"/>
+      
       <Home 
       name1="Front end development"
       name="React"
